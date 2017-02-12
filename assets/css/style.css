@@ -1,0 +1,380 @@
+html{
+	background-image: url("../images/halftone.png");
+}
+
+body{
+	color: #777777;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+header{
+	height: 95px;
+	line-height: 65px;
+	background-color: #ffffff;
+	border: solid;
+	border: 0 0 25px 0;
+	border-color:  #cccccc;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.container{
+	
+	float: left;
+	width: 610px;
+	margin-left: 300px;
+	margin-top: 38px;
+	margin-bottom: 80px;
+	padding: 20px;
+	background-color: white;
+	height: 100%;
+}
+
+.bio-image{
+	float: left;
+	padding: 0 20px 10px 0;
+}
+
+aside{
+
+	width: 230px;
+	float: left;
+	margin-left: 38px;
+	margin-top: 38px;
+	background-color: white;
+	padding: 20px;
+	text-align: center;
+
+}
+
+h1{
+	font-size: 35px;
+	background-color: #4aaaa5;
+	margin: 0px 10px 0px 10px;
+	color: white;
+	padding: 15px 15px 15px 15px;
+}
+
+h2{
+	color:#4aaaa5;
+	font-size: 25px;
+	margin-bottom: 20px
+}
+
+nav{
+	float: right;
+	margin-right: 300px;
+	color: #777777;
+	padding: 18px 18px 18px 18px;
+}
+
+blockquote{
+	line-height: 1.3;
+	font-style: italic;
+}
+
+.n2{
+	font-style: normal;
+}
+
+.a1{
+	color: #777777;
+	padding: 0 15px 0 15px;
+}
+
+.a1:hover{ 
+	color: #4aaaa5  
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a.divisor{
+	border: 2px solid #e3e3e3;
+	border-width: 0 2px 0 2px;
+	padding: 0 15px 0 15px;
+}
+
+.logo{
+	float: left;
+	background-color: ;
+	margin-left: 290px;
+}
+
+section{
+	
+	float: left;
+}
+
+p{
+	margin-left: 0px;
+	line-height: 1.8;
+	
+}
+.bio-image{
+	float: left;
+	padding-right: 20px;
+}
+
+footer{
+	clear: both;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+
+.left{
+	float: left;
+	width: 296px;
+	height: 250px
+}
+
+.right{
+	float: right;
+	width: 296px;
+	height: 250px
+}
+
+label {
+    position: relative;
+    left: 0px;
+    bottom: 65px;
+    width: 295px;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 15px 0 15px 0;
+ }
+
+ .w100{
+ 	    width: 100%;
+ }
+
+#contact-submit{
+	margin-top: 20px;
+	background-color: #4aaaa5;
+	padding: 10px 15px 10px 15px;
+	color: white;
+}
+
+form{
+	width: 605px;
+}
+
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+
+	.container { 
+		margin: 38px 10px 80px 90px;
+		width: 300px;
+	}
+
+	aside{
+		width: 240px;
+		margin-left: 45px;
+	}
+
+	.logo{
+		margin-left: 80px;
+	}
+
+	p{
+		clear: both;
+	}
+
+	nav{
+		margin-right: 140px;
+
+	}
+	.bio-image{
+		width: 100%;
+	}
+	.right{
+		float: left;
+		width: 300%
+	}
+
+	form{
+		width: 290px;
+	}
+}
+
+/* Additional Screen Sizes */
+
+	/* Width at 768px and below */
+	@media screen and (max-width: 768px) {
+
+	.container { 
+		margin: 38px 10px 0px 20px;
+		width: 680px;
+	}
+
+	aside{
+		width: 680px;
+		margin: 38px 10px 130px 20px;
+	}
+
+	.logo{
+		margin-left: 10px;
+	}
+
+	p{
+		clear: right;
+	}
+
+	nav{
+		margin-right: 50px;
+
+	}
+	.bio-image{
+	float: left;
+	width: 300px;
+	height: auto;
+	}
+
+	.left{
+	float: left;
+	width: 330px;
+	height: 250px;
+	margin-left:25px;
+	
+	}
+
+	.right{
+	float: right;
+	width: 370px;
+	height: 250px;
+	margin-right:-55px;
+	
+	}
+
+	form{
+		width: 670px;
+	}
+
+	h2{
+	margin-left: 25px;
+	margin-right: 20px;
+	
+	}
+	hr{
+	margin-left: 25px;
+	margin-right: 25px;
+	}
+}
+
+
+
+	/* Additional Screen Sizes */
+
+	/* Width at 640px and below */
+	@media screen and (max-width: 640px) {
+
+	.container { 
+		margin: 38px 30px 20px 30px;
+		width: 540px;
+	}
+
+	aside{
+		width: 540px;
+		margin-left: 30px;
+
+	}
+
+	.logo{
+		
+		margin: 0px 0px 0px -10px;
+		width: 660px;
+		clear: both; 
+		text-align: center;
+	}
+
+	p{
+		clear: both;
+	}
+
+	nav{
+	clear: both;
+	background-color: white;
+	width: 660px;
+	padding: 0px 18px 0px 18px;
+	margin-right: -30px;
+	text-align: center;
+	}
+	.bio-image{
+	float: left;
+	width: 100%;
+	height: auto;
+	}
+	.left{
+	float: left;
+	width: 500px;
+	height: 500px;
+	margin-left:25px;
+	
+	}
+
+	.right{
+	float: right;
+	width: 500px;
+	height: 500px;
+	margin-right: 15px;
+    margin-top: -80px;
+    margin-bottom: -80px;
+	
+	}
+
+	form{
+		width: 540px;
+	}
+
+	h2{
+	margin-left: 25px;
+	margin-right: 20px;
+	
+	}
+	hr{
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+a.divisor{
+	border: 2px solid #e3e3e3;
+	border-width: 0 2px 0 2px;
+	padding: 0 70px 0 70px;
+}
+.a1{
+	color: #777777;
+	padding: 0 70px 0 70px;
+}
+
+.aw100{
+	width: 550px;
+}
+
+.aa{
+	width: 550px;
+	position:relative;
+	top: 200px;
+	}
+
+.resize-img{
+	width: 500px;
+	clear: both;
+	}
+	
+	label {
+    width: 500px;
+ }
+}
